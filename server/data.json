@@ -2,32 +2,17 @@
   "movies": [
     {
       "id": "1",
-      "title": "Inception",
+      "title": "The Prestige",
       "directorId": "1"
     },
     {
       "id": "2",
-      "title": "Interstellar",
-      "directorId": "1"
-    },
-    {
-      "id": "3",
-      "title": "Superman",
+      "title": "The Superman",
       "directorId": "3"
     },
     {
-      "id": "4",
-      "title": "es",
-      "directorId": "1"
-    },
-    {
-      "id": "5",
-      "title": "something",
-      "directorId": "2"
-    },
-    {
-      "id": "1775674916880",
-      "title": "number",
+      "id": "3",
+      "title": "Interstellar",
       "directorId": "1"
     }
   ],
@@ -43,6 +28,14 @@
     {
       "id": "3",
       "name": "James Gunn"
+    },
+    {
+      "id": "4",
+      "name": "Steven Spielberg"
+    },
+    {
+      "id": "5",
+      "name": "James Cameron"
     }
   ]
 }

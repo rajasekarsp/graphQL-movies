@@ -3,7 +3,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:4000/";
+const API_ENDPOINT = "http://localhost:4000/";
 
 const allMoviesQuery = `
   query {
@@ -40,8 +40,8 @@ export default function App() {
   const [directorId, setDirectorId] = useState("");
 
   const fetchAllMovies = async () => {
-    const res = await fetch(API, {
-      method: "GET",
+    const res = await fetch(API_ENDPOINT, {
+      method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         query: allMoviesQuery
@@ -53,7 +53,7 @@ export default function App() {
   };
 
   const fetchMoviesByDirector = async (directorId) => {
-    const res = await fetch(API, {
+    const res = await fetch(API_ENDPOINT, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -67,7 +67,7 @@ export default function App() {
   };
 
   const addMovie = async () => {
-    await fetch(API, {
+    await fetch(API_ENDPOINT, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -86,7 +86,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    fetchMoviesByDirector(3);
+    fetchAllMovies();
   }, []);
 
   return (
