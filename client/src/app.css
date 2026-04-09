@@ -1,0 +1,13 @@
+.movies-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+}
+.movies-table th, .movies-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.movies-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}

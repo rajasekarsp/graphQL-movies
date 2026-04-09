@@ -1,0 +1,48 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "directorId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Interstellar",
+      "directorId": "1"
+    },
+    {
+      "id": "3",
+      "title": "Superman",
+      "directorId": "3"
+    },
+    {
+      "id": "4",
+      "title": "es",
+      "directorId": "1"
+    },
+    {
+      "id": "5",
+      "title": "something",
+      "directorId": "2"
+    },
+    {
+      "id": "1775674916880",
+      "title": "number",
+      "directorId": "1"
+    }
+  ],
+  "directors": [
+    {
+      "id": "1",
+      "name": "Christopher Nolan"
+    },
+    {
+      "id": "2",
+      "name": "Quentin Tarantino"
+    },
+    {
+      "id": "3",
+      "name": "James Gunn"
+    }
+  ]
+}
